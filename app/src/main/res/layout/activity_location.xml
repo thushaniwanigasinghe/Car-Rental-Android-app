@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource"
+    android:background="@drawable/blue1"
+    tools:context=".LocationActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <ImageView
+        android:layout_width="111dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="-99dp"
+        android:layout_marginRight="7dp"
+        android:src="@drawable/location" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOCATION"
+        android:textColor="#000080"
+        android:textSize="36sp"
+        android:layout_margin="25dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/name"
+        android:gravity="left"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="User Details"
+            android:textColor="#000080"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/cusEmail"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:hint="ENTER YOUR EMAIL"
+            android:textColor="#000080"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/cusLocation"
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:hint="ENTER YOUR LOCATION"
+            android:textColor="#000080"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Pick Up"
+            android:textColor="#000080"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/cusPickAddress"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:hint="ENTER YOUR ADDRESS"
+            android:textColor="#000080"
+            android:textColorHint="@color/black" />
+
+        <!-- Pick Up Date -->
+        <EditText
+            android:id="@+id/cusPickDate"
+            android:layout_width="294dp"
+            android:layout_height="wrap_content"
+            android:hint="ENTER YOUR DATE"
+            android:textColor="#000080"
+            android:textColorHint="@color/black"
+            android:focusable="false"
+            android:clickable="true" />
+
+        <!-- Pick Up Time -->
+        <EditText
+            android:id="@+id/cusPickTime"
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:hint="ENTER YOUR TIME"
+            android:textColor="#000080"
+            android:textColorHint="@color/black"
+            android:focusable="false"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="Drop Off"
+            android:textColor="#000080"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/cusDropAddress"
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:hint="ENTER YOUR ADDRESS"
+            android:textColor="#000080"
+            android:textColorHint="@color/black" />
+
+        <!-- Drop Off Date -->
+        <EditText
+            android:id="@+id/cusDropDate"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:hint="ENTER YOUR DATE"
+            android:textColor="#000080"
+            android:textColorHint="@color/black"
+            android:focusable="false"
+            android:clickable="true" />
+
+        <!-- Drop Off Time -->
+        <EditText
+            android:id="@+id/cusDropTime"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:hint="ENTER YOUR TIME"
+            android:textColor="#000080"
+            android:textColorHint="@color/black"
+            android:focusable="false"
+            android:clickable="true" />
+
+        <Button
+            android:id="@+id/customerNext"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Next"
+            android:textSize="27sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

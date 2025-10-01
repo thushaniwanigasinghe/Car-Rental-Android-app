@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1096471230348",
+    "project_id": "swiftcar-bb568",
+    "storage_bucket": "swiftcar-bb568.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096471230348:android:61dd826089e73229b288a9",
+        "android_client_info": {
+          "package_name": "com.s22009999.carrentalapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8kURMzzZ_nbyrunoUn1yBm7a7iu2ab3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

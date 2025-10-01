@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="maintextView" type="id" />
+    <item name="recyclerView" type="id" />
+    <item name="profile_Name" type="id" />
+    <item name="profile_email" type="id" />
+    <item name="userlist" type="id" />
+    <item name="updateBtn" type="id" />
+    <item name="deleteBtn" type="id" />
+</resources>

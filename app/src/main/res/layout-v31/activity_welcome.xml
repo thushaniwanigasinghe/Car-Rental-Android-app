@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pic4"
+    tools:context=".WelcomeActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="108dp"
+        android:layout_height="91dp"
+        android:layout_gravity="clip_vertical"
+        app:srcCompat="@drawable/logo2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textAlignment="center"
+        android:textColor="#92C4F1"
+        android:textSize="40sp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SWIFT CAR"
+        android:textAlignment="center"
+        android:textColor="#C7D9E3"
+        android:textColorHighlight="#109DEA"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+
+
+    <Button
+        android:id="@+id/Move"
+        android:layout_width="262dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="350dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="GET START-->>"
+        android:textSize="30dp" />
+</LinearLayout>

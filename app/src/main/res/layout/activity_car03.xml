@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue1"
+    android:orientation="vertical"
+    tools:context=".Car03Activity">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAR 03"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/car3"
+        android:textSize="34sp"
+        android:gravity="center"
+        android:layout_marginTop="32dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="281dp"
+        android:layout_height="252dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/car03" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textStyle="bold"
+        android:textColor="@color/carthree1"
+        android:textSize="20sp"
+        android:paddingStart="16dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/carNameThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="2012 Toyota Corolla Axio"
+        android:textSize="20sp"
+        android:paddingStart="16dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How Many Seats"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/carthree1"
+        android:paddingStart="16dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:paddingStart="16dp"
+        android:text="Driver + Three Members"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingStart="16dp"
+        android:textStyle="bold"
+        android:text="Diesel or Petrol"
+        android:textColor="@color/carthree1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Petrol"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:paddingStart="16dp" />
+
+    <Button
+        android:id="@+id/SELECTBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECT"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="@color/carthreebtn"
+        android:layout_marginEnd="16dp" />
+
+
+</LinearLayout>

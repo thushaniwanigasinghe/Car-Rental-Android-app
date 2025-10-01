@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/picture8"
+    tools:context=".TypeOfCarActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/top_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:title="TYPE OF CAR"
+        android:titleTextColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Your Like Car"
+        android:textAlignment="center"
+        android:textColor="#EF0808"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            android:id="@+id/car01"
+            android:layout_width="149dp"
+            android:layout_height="133dp"
+            android:src="@drawable/alto" />
+
+        <ImageButton
+            android:id="@+id/car02"
+            android:layout_width="159dp"
+            android:layout_height="136dp"
+            android:src="@drawable/aqua"
+            android:layout_marginStart="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            android:id="@+id/car03"
+            android:layout_width="145dp"
+            android:layout_height="142dp"
+            android:src="@drawable/corolla" />
+
+        <ImageButton
+            android:id="@+id/car04"
+            android:layout_width="153dp"
+            android:layout_height="137dp"
+            android:src="@drawable/prius"
+            android:layout_marginStart="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            android:id="@+id/car05"
+            android:layout_width="141dp"
+            android:layout_height="127dp"
+            android:src="@drawable/vitz" />
+
+        <ImageButton
+            android:id="@+id/car06"
+            android:layout_width="154dp"
+            android:layout_height="126dp"
+            android:src="@drawable/wagonr"
+            android:layout_marginStart="10dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/picture8"
+    tools:context=".UserTypeActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/top_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:titleTextColor="@android:color/white" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="74dp"
+        android:layout_height="59dp"
+        android:layout_gravity=""
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/logo2" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USER TYPE"
+        android:textAlignment="center"
+        android:textColor="@color/lavender"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:layout_width="421dp"
+        android:layout_height="206dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="7dp"
+        android:src="@drawable/usetype" />
+
+    <Button
+        android:id="@+id/btncustomer"
+        android:layout_width="260dp"
+        android:layout_height="52dp"
+        android:text="CUSTOMER"
+        android:textColor="#F6F5F5"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/btnadmin"
+        android:layout_width="273dp"
+        android:layout_height="50dp"
+        android:text="ADMIN"
+        android:textColor="#EDF0F3"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp" />
+
+
+</LinearLayout>

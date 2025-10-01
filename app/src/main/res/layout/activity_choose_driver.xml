@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/picture8"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ChooseDriverActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="384dp"
+        android:layout_height="86dp"
+        android:layout_marginVertical="105dp"
+        android:text="CHOOSE DRIVER"
+        android:textAlignment="center"
+        android:textColor="@color/lavender"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp">
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/withbtn"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-90dp"
+        android:text="WITH DRIVER"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/withoutbtn"
+        android:layout_width="356dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="16dp"
+        android:text="WITHOUT DRIVER"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageViewDriver"
+        android:layout_width="375dp"
+        android:layout_height="188dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="-90dp"
+        android:layout_marginRight="836dp"
+        android:src="@drawable/driver" />
+
+</LinearLayout>

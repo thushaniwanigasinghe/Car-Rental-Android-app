@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".SignupActivity"
+    android:background="@drawable/picture8">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/top_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:title="SIGNUP"
+        android:titleTextColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="82dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/logo2"
+        android:layout_gravity="clip_vertical"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text=" DO YOU HAVE ACCOUNT?"
+        android:textColor="@color/lavender"
+        android:textColorHighlight="#4A8CCD"
+        android:textColorLink="#100F0F"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <ImageView
+        android:layout_width="284dp"
+        android:layout_height="207dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="-9dp"
+        android:layout_marginRight="7dp"
+        android:src="@drawable/girl" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="259dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/system_accent1_500"
+        android:onClick="onClick"
+        android:text="SIGN IN"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/singup"
+        android:layout_width="254dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/system_accent1_500"
+        android:onClick="onClick"
+        android:text="SIGN UP"
+        android:textSize="24sp" />
+
+
+
+</LinearLayout>

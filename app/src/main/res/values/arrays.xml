@@ -1,0 +1,12 @@
+<resources>
+    <string-array name="screen_orientation_options">
+        <item>Auto</item>
+        <item>Portrait</item>
+        <item>Landscape</item>
+    </string-array>
+    <string-array name="screen_orientation_values">
+        <item>auto</item>
+        <item>portrait</item>
+        <item>landscape</item>
+    </string-array>
+</resources>

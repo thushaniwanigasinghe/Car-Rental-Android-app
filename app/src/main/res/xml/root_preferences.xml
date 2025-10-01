@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat
+        android:key="dark_mode"
+        android:title="Dark Mode"
+        android:summary="Enable dark mode" />
+
+    <SeekBarPreference
+        android:key="brightness"
+        android:title="Brightness"
+        android:summary="Adjust the screen brightness"
+        android:max="255"
+        android:defaultValue="128" />
+
+    <ListPreference
+        android:key="screen_orientation"
+        android:title="Screen Orientation"
+        android:summary="Select screen orientation"
+        android:entries="@array/screen_orientation_options"
+        android:entryValues="@array/screen_orientation_values"
+        android:defaultValue="auto" />
+</PreferenceScreen>

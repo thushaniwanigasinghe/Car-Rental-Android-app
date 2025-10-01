@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lavender">#000080</color>
+    <color name="textcolor">#80E8F8</color>
+    <color name="text">#1FA6FA</color>
+    <color name="red">#D50000</color>
+    <color name="blue">#304FFE</color>
+    <color name="blue1">#4AB3F4</color>
+    <color name="blue2">#40CBE1</color>
+    <color name="color2">#91F886</color>
+    <color name="color1">#ED92DA</color>
+    <color name="purple">#54DBEF</color>
+    <color name="blue5">#F6EBB0</color>
+    <color name="yellow">#F4CF09</color>
+    <color name="blue6">#EDD96F</color>
+    <color name="yellow1">#8E7805</color>
+    <color name="purple2">#C3EDE7</color>
+    <color name="booking">#F4E8AA</color>
+    <color name="green">#A2E876</color>
+    <color name="purple3">#64EC0D</color>
+    <color name="purple4">#F44343</color>
+    <color name="carfive01">#122B02</color>
+    <color name="carfive2">#08833B</color>
+    <color name="carfour1">#B30505</color>
+    <color name="carfour2">#7C0F0F</color>
+    <color name="carthree1">#ED0970</color>
+    <color name="carthree2">#F62E88</color>
+    <color name="carthreebtn">#61052E</color>
+    <color name="cartwo1">#55C60D</color>
+    <color name="cartwo2">#93EF58</color>
+    <color name="cartwobtn">#275A06</color>
+    <color name="carone1">#265C04</color>
+    <color name="carone2">#EF8A3F</color>
+    <color name="car01">#183A03</color>
+    <color name="car2">#122C01</color>
+    <color name="car3">#680331</color>
+    <color name="car4">#531202</color>
+    <color name="car5">#0F2501</color>
+    <color name="car6">#2E1501</color>
+
+
+
+
+</resources>
